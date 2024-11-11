@@ -1,0 +1,8 @@
+chis = int(input("Введіть чисельник: "))
+znam = int(input("Введіть знаменник: "))
+
+if znam != 0:
+    result = chis // znam
+    print(f"Результат ділення {chis} на {znam} дорівнює {result}")
+else:
+    print("Помилка: ділення на нуль!")
